@@ -49,16 +49,45 @@
 .Aboutsection {
     width: 100%;
     height:100vh;
-}
-.Aboutsection img{
-    height: 55vh;
-    width: 30%;
-    padding-left: 10%;
     padding-top: 5%;
 }
-.section{
-    /* display: flex; */
+.section1{
+    text-align: center;
 }
-
+.myimage img{
+    height: 50vh;
+    width: 275px;
+    margin-left: 50%;
+}
+.flex{
+    display: flex;
+    padding-top: 5%;
+}
+.myself{
+    width: 35%;
+    margin-left: 33%;
+}
+.myself .button a{
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color:black;
+    color: white;
+    text-decoration: none;
+    padding: 13px;
+}
+.button{
+    padding-top: 5%;
+}
+.sec1{
+    display: flex;
+}
+.sec1 .sec2{
+  width: 45%;
+  padding-left: 10%;
+}
+.sec3{
+   text-align: center;
+   margin-left: 25%;
+}
 
 
