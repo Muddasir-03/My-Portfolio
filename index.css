@@ -58,6 +58,8 @@
     height: 50vh;
     width: 275px;
     margin-left: 50%;
+    border-radius: 20px;
+    /* border: 10px solid black; */
 }
 .flex{
     display: flex;
@@ -83,17 +85,22 @@
     padding-top: 5%;
 }
 .sec1 .sec2{
-  width: 45%;
+  width: 65%;
   padding-left: 10%;
 }
 .sec3{
+    width: 100%;
    text-align: center;
-   margin-left: 25%;
 }
 .logos img{
     height: 50vh;
-    width: 100%;
-    padding-left: ;
+    width: 50%;
+    margin-left: 15%; 
+    padding-top: 10%;
 }
+.sec1 .sec2 .head{
+    width: 100%;
+}
+
 
 
