@@ -85,17 +85,17 @@
     padding-top: 5%;
 }
 .sec1 .sec2{
-  width: 65%;
-  padding-left: 10%;
+    width: 65%;
+    padding-left: 10%;
 }
 .sec3{
     width: 100%;
-   text-align: center;
+    text-align: center;
 }
 .logos img{
     height: 50vh;
     width: 50%;
-    margin-left: 15%; 
+    margin-left: 12%; 
     padding-top: 10%;
 }
 .sec1 .sec2 .head{
