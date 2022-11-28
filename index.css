@@ -12,12 +12,25 @@
 }
 #nav{
     margin-left: 4%;
-    font-weight: bold;
+    /* font-weight: bold; */
     font-size: 20px;
 }
+.container1 .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .show>.nav-link a{
+  color: lightgreen;
+}
+
+.vm h3{
+  font-family:'permanent Marker',cursive;
+  font-weight: bolder;
+  color:#ea1d6f;
+  font-size:xx-large;
+}
+.vm{
+  margin-left: 7%;
+}
  img{
-   height: 50px;
-   width: 50px;
+   height: 67px;
+   width: 75px;
 }
 .bg{
     background: url(/images/pexels-danny-meneses-943096.jpg);
@@ -55,7 +68,7 @@
 }
 .section1{
     text-align: center;
-    border-bottom: 20px solid gray;
+    /* border-bottom: 20px solid gray; */
 }
 .myimage img{
     height: 50vh;
@@ -304,8 +317,8 @@
     -moz-osx-font-smoothing: grayscale;
   }
   .background {
-    display: flex;
-    min-height: 100vh;
+    /* display: flex; */
+    /* min-height: 100vh; */
   }
   
   .container {
@@ -316,7 +329,7 @@
   
   .screen {
     position: relative;
-    background: #3e3e3e;
+    background:currentColor;
     border-radius: 15px;
   }
   
@@ -337,7 +350,7 @@
   
   
 
-  
+
   .screen-body {
     display: flex;
   }
@@ -348,6 +361,7 @@
   }
   
   .screen-body-item.left {
+    /* height: 100vh; */
     display: flex;
     flex-direction: column;
   }
@@ -484,78 +498,26 @@
 .cards{
     border: 10px solid gray;
 }
-
-.background{
-    border: 10px solid gray;
+.contents{
+  width: 100%;
+  /* margin-top: 15%; */
+  margin-top: 8%;
+  color: white;
 }
-ul {
-    display: flex;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
+.mycnt{
+  color: white;
+  width: 40%;
+  margin-top: 5%;
+}
+.app-form{
+  margin-top: 15%;
+}
+.contactimg img{
+  height: 50vh;
+  width: 80%;
+  margin-top: 5%;
+}
+
+
+
   
-  ul li {
-    list-style: none;
-  }
-  
-  ul li a {
-    width: 80px;
-    height: 80px;
-    background-color: #fff;
-    text-align: center;
-    line-height: 80px;
-    font-size: 35px;
-    margin: 0 10px;
-    display: block;
-    border-radius: 50%;
-    position: relative;
-    overflow: hidden;
-    border: 3px solid #fff;
-    z-index: 1;
-  }
-  
-  ul li a .icon {
-    position: relative;
-    color: #262626;
-    transition: .5s;
-    z-index: 3;
-  }
-  
-  ul li a:hover .icon {
-    color: #fff;
-    transform: rotateY(360deg);
-  }
-  
-  ul li a:before {
-    content: "";
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: #f00;
-    transition: .5s;
-    z-index: 2;
-  }
-  
-  ul li a:hover:before {
-    top: 0;
-  }
-  
-  ul li:nth-child(1) a:before{
-    background: #3b5999;
-  }
-  
-  ul li:nth-child(2) a:before{
-    background: #55acee;
-  }
-  
-  ul li:nth-child(3) a:before {
-    background: #0077b5;
-  }
-  
-  ul li:nth-child(4) a:before {
-    background: #dd4b39;
-  }
