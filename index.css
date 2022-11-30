@@ -1,22 +1,25 @@
 *{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Source Sans Pro',sans-serif;
+  scroll-behavior: smooth;
 }
 #fixed{
     position: absolute;
     width: 100%;
-    /* -webkit-backdrop-filter: blur(8px);
-    backdrop-filter: blur(2px); */
-    background-color: black;
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(2px);
+    /* background-color: black; */
 }
 #nav{
-    /* font-weight: bold; */
+    font-weight: 600;
     /* padding-left: 10%; */
     font-size: 20px;
+    background-color: transparent;
 }
 .container1 .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .show>.nav-link a{
-  color:skyblue;
+  color:aqua;
 }
 .container1 .navbar-nav{
   display: flex;
@@ -37,7 +40,7 @@
    width: 75px;
 }
 .bg{
-    background: url(/images/pexels-danny-meneses-943096.jpg);
+    background: url(/images/R.jpg);
     width: 100%;
     height: 100vh;
     background-attachment: fixed;
@@ -52,52 +55,84 @@
 }
 .myname h1{
     font-family: 'Chakra Petch', sans-serif;
-    color:mediumaquamarine;
+    color:white;
 }
 .myname h2{
     font-family: 'Chakra Petch', sans-serif;
-    color:mediumaquamarine;
+    color:white;
 }
 .myname h1 span{
-    color:#333;
+    color:steelblue;
 }
 
 
 .Aboutsection {
     width: 100%;
-    height:100vh;
+    height:170vh;
     padding-top: 5%;
-    margin-bottom: 10%;
-   
+    margin-bottom: 5%;
+    text-align: center;
+    border-bottom: 1px solid black;
+    /* background-color: rgba(0, 0, 0, 0.8); */
+}
+.Aboutsection .section1 .cnt1 h2{
+  letter-spacing: 5px;
+  color:steelblue ;
+  font-weight: 600;
+}
+.Aboutsection .section1 .flex .myself{
+  font-family: 'Chakra Petch', sans-serif;
+}
+.Aboutsection .section1 .flex .myself h3 span{
+    color: steelblue;
+    font-weight: 600;
+    font-family: 'Chakra Petch', sans-serif;
 }
 .section1{
-    text-align: center;
     /* border-bottom: 20px solid gray; */
 }
 .myimage img{
     height: 50vh;
     width: 275px;
-    margin-left: 50%;
-    border-radius: 20px;
-    border: 8px solid darkgray;
+    border-radius: 10px;
+    border: 3px solid black;
+}
+.myimage{
+  width: 80%;
 }
 
 .flex{
     display: flex;
     padding-top: 5%;
+    width: 100%;
+    padding-bottom: 5%;
 }
-.myself{
-    width: 35%;
-    margin-left: 33%;
+.flex .img{
+  width: 50%;
+}
+.flex .myself{
+  width: 50%;
+}
+.myself h3{
+  width: 80%;
+  font-family: 'Chakra Petch', sans-serif;
+  
+}
+.myself .para{
+  width: 80%;
+ text-align: justify;
+ margin-top: 5%;
+ font-family: 'Poppins', sans-serif;
+  
 }
 .button {
     text-align: center;
     text-transform: uppercase;
     cursor: pointer;
-    font-size: 17px;
+    font-size: 15px;
     letter-spacing: 1px;
     position: relative;
-    background-color: skyblue;
+    background-color:skyblue;
     border: none;
     color: white;
     padding: 8px;
@@ -107,7 +142,7 @@
     overflow: hidden;
     box-shadow: 0 5px 15px #193047;
     border-radius: 4px;
-    margin-top: 5%;
+    margin-top: 10%;
     border-radius: 10px;
     margin-left: 25%;
   }
@@ -126,30 +161,42 @@
   }
 .sec1{
     display: flex;
+    width: 100%;
     margin-bottom:3%;
+    
 }
-.sec1 .sec2{
-    width: 65%;
-    padding-left: 10%;
+.sec2{
+    width: 50%;
 }
 .sec3{
-    width: 100%;
-    text-align: center;
+    width: 50%;
 }
-/* .backimage img{
-    height: 100vh;
-    width: 100%;
-  
-} */
+.backimage .sec1 .sec2 .content{
+  width: 70%;
+  text-align: justify;
+  margin-left: 20%;
+  font-family: 'Poppins', sans-serif;
+}
 .logos img{
     height: 50vh;
-    width: 50%;
-    margin-left: 12%; 
+    width: 60%;
+    margin-left: 10%; 
     padding-top: 10%;
 }
 .sec1 .sec2 .head{
     width: 100%;
+    margin-left: 4%;
 }
+.sec1 .sec2 .head h3{
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+.backimage .sec3 .skill h3{
+  letter-spacing: 1px;
+  color:steelblue ;
+  font-weight: 600;
+}
+
 .button1 {
     text-align: center;
     text-transform: uppercase;
@@ -161,7 +208,7 @@
     border: none;
     color: white;
     padding: 8px;
-    width: 125px;
+    width: 145px;
     text-align: center;
     transition-duration: 0.4s;
     overflow: hidden;
@@ -169,7 +216,7 @@
     border-radius: 4px;
     margin-top: 5%;
     border-radius: 10px;
-    margin-left: 30%
+    margin-left: 40%
   }
   .button1 a{
     text-decoration: none;
@@ -204,7 +251,7 @@
 .cards{
     /* height: 100vh;
     width: 100%; */
-    margin-top: 43%;
+    /* margin-top: 43%; */
 }
   .container{
     width: 1000px;
@@ -307,14 +354,27 @@
     background: #333;
     color: #fff;
 }
-.sec1{
+/* .sec1{
     display: flex;
+} */
+.cards .project .prohead{
+  letter-spacing: 3px;
+  color:steelblue ;
+}
+.cards .project .prohead h3{
+  font-weight:600;
 }
 
 
 
 .contact-section{
   border-top: 3px solid gray;
+  background: url(/images/R.jpg);
+  width: 100%;
+  height: 100vh;
+  background-attachment: fixed;
+  background-position-y: bottom;
+  background-size: cover;
 }
 .twosection{
   display: flex;
@@ -323,35 +383,66 @@
 .head{
   width: 100%;
   text-align: center;
+  padding-bottom: 2%;
 }
 .contents{
-  width: 58%;
-  margin-left: 10%;
+  /* width: 58%; */
+  margin-left: 30%;
   margin-top: 5%;
 }
-.contactimg img{
-  height: 260px;
-  width: 250px;
-  margin-left: 15%;
+.contents h6{
+  width: 80%;
+  font-weight: 700;
 }
 .mycnt{
- margin-top:20%;
- margin-left: 5%;
+ margin-top:5%;
+ margin-left: 30%;
+ color: darkcyan;
+ font-size: large;
 }
-.name span{
-  /* color: aqua; */
+.mycnt span{
+  color: #000;
+}
+.left-section{
+  width: 50%;
+}
+.right-section{
+  width: 50%;
 }
 .name{
-  margin-bottom: 6%;
+  margin-bottom: 4%;
 }
 .mail{
-  margin-bottom: 6%;
+  margin-bottom: 4%;
 }
 .num{
-  margin-bottom: 6%;
+  margin-bottom: 4%;
+}
+.twosection .right-section .inputs .data input{
+  border:0;
+  outline: 0;
+  border-bottom: 2px solid darkcyan;
+  font-family:Arial, Helvetica, sans-serif;
+}
+.twosection .right-section .inputs .text textarea{
+  border: 0;
+  outline: 0;
+  border-bottom: 2px solid darkcyan;
 }
 .data{
-  padding-bottom: 8%;
+  padding-bottom: 3%;
+  padding-left: 15%;
+
+}
+.inputs .head{
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.inputs .head h3{
+  width: 53%;
+}
+.text{
+  padding-left: 15%;
 }
 
 
