@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Source Sans Pro',sans-serif;
-  scroll-behavior: smooth;
+  scroll-behavior: smooth;  
 }
 #fixed{
     position: absolute;
@@ -54,7 +54,7 @@
 }
 .myname{
     padding-left: 5%;
-    padding-top:15%;
+    padding-top:17%;
     font-size: 25px;
     font-weight: 900;
 }
@@ -107,9 +107,11 @@
     width: 275px;
     border-radius: 10px;
     border: 3px solid black;
+    
 }
 .myimage{
   width: 80%;
+  margin-left: 7%
 }
 
 .flex{
@@ -166,9 +168,10 @@
   }
   .button a:hover{
     color:black;
+
   }
   .button:hover {
-    background:#fff;
+    background:white;
     box-shadow: 0px 2px 10px 5px skyblue;
     color: #000;
   }
@@ -202,11 +205,30 @@
   background-size: cover;
   /* border-bottom: 4px solid rgb(92, 92, 92);  */
 }
-.logos img{
+/* .logos img{
     height: 50vh;
     width: 60%;
     margin-left: 20%; 
     padding-top: 10%;
+} */
+.sec1 .sec3 .logo{
+  display: flex;
+  width: 100%; 
+  justify-content: space-around;
+  margin-top: 15%;
+  flex-wrap: wrap;
+  color: white;
+  font-size: 110px;
+}
+.sec1 .sec3 .logo .logos{
+  text-align: center;
+}
+.sec1 .sec3 .logo .logos h2{
+  font-family: 'Chakra Petch', sans-serif;
+  letter-spacing: 1px;
+}
+.sec1 .sec3 .logo span{
+  color: steelblue;
 }
 .sec1 .sec2 .head{
     width: 100%;
@@ -220,7 +242,7 @@
   
 }
 .backimage .sec3 .skill h4{
-  letter-spacing: 1px;
+  letter-spacing: 2px;
   color:steelblue ;
   font-weight: 600;
   text-align: center;
@@ -262,7 +284,7 @@
   .project{
     width: 100%;
     text-align: center;
-    margin-bottom: 5%;
+    margin-bottom: 3%;
     font-family: 'Poppins', sans-serif;
     
 
@@ -280,6 +302,14 @@
 
 .cards .project .propara{
   color: #fff;
+  font-family: 'Poppins', sans-serif;
+}
+.cards .project .propara h6{
+  margin-top: 3%;
+  font-size: large;
+}
+.cards .project .propara h5{
+  margin-top: 2%;
 }
   
 
@@ -431,6 +461,7 @@
 .twosection{
   display: flex;
   width: 100%;
+  position: relative;
 }
 .twosection .left-section .mycnt .name i span{
   color:skyblue;
@@ -447,7 +478,15 @@
   font-family: 'Chakra Petch', sans-serif;
   letter-spacing: 1px;
 }
-.twosection i{
+/* .twosection .left-section .mycnt .address i span{
+  color: skyblue;
+  font-family: 'Chakra Petch', sans-serif;
+  letter-spacing: 1px;
+}
+.twosection .left-section .mycnt .address i{
+  width: 100%;
+} */
+.twosection .left-section i{
   color:#fff ;
   font-size: 22px;
 
@@ -484,7 +523,7 @@
   font-family: 'Poppins', sans-serif;
 }
 .mycnt{
- margin-top:10%;
+ margin-top:12%;
  margin-left: 30%;
  color: darkcyan;
  font-size: large;
@@ -540,7 +579,7 @@
 
 }
 .inputs .head{
-  padding-top: 3%;
+  /* padding-top: 3%; */
   padding-bottom: 5%;
 }
 .inputs .head h4{
@@ -549,6 +588,71 @@
 .text{
   padding-left: 15%;
 }
+.social-media .media h4{
+  letter-spacing: 2px;
+  color:steelblue;
+  width: 100%;
+  text-align: center;
+  margin-left: 1%;
+}
+.contact-section .icon{
+  position: absolute;
+  top: 10%;
+  border: 2px solid rgb(92, 92, 92);
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+  border-left: 0;
+  /* margin-left: 2%; */
+  padding: 15px;
+
+}
+.contact-section .icon i{
+  font-size: 33px;
+  margin-bottom: 5%;
+}
+.contact-section .icon  .face{
+  margin-bottom: 60%;
+  margin-top: 50%;
+}
+.contact-section .icon  .insta{
+  margin-bottom: 60%;
+}
+.contact-section .icon  .whatsapp{
+  margin-bottom: 60%;
+}
+.contact-section .icon  .git{
+  margin-bottom: 60%;
+}
+.contact-section .icon  .twitter{
+  margin-bottom: 60%;
+}
+.contact-section .icon  .link{
+  margin-bottom: 6  0%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:1150px){
+   #fixed{
+    width: 90%;
+   }  
+   .backimage{
+    height: 102vh;
+   }
+
+}
+
+
 
 
 
