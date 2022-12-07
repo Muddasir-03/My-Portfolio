@@ -635,6 +635,39 @@
   margin-bottom: 40%;
 }
 
+#muddasir{
+  position: relative;
+  text-transform: uppercase;
+  color:transparent;
+}
+
+#muddasir::before{
+  content:"muddasir";
+  position: absolute;
+  /* top: 5px; */
+  left:0;
+  width:100%;
+  /* height: 100%; */
+  color:steelblue;
+  text-align: center;
+  animation:slide 3s 0.9s linear infinite;
+  overflow: hidden;
+}
+@keyframes slide {
+  0%{
+    width:0%;border-right:3px solid steelblue;
+    
+  }
+95%{
+  border-right:3px solid steelblue;
+}
+100%{
+width:100%;border-right:none;
+}
+
+}
+
+
 
 
 
@@ -678,6 +711,7 @@
   .backimage{
     height: 110vh;
   }
+
 }
 @media(max-width:1050px){
   #fixed{
@@ -697,6 +731,12 @@
   .cards{
     height: 128vh;
   }
+  .navbar-dark .navbar-toggler{
+    transform: translate(225px,-60px);
+  }
+  .container1 .navbar-nav{
+    margin-left: 120%;
+  }
 
 }
 @media(max-width:950px){
@@ -707,13 +747,16 @@
     margin-left: 118%;
   }
   .backimage{
-    height: 118vh;
+    height: 122vh;
+  }
+  .Aboutsection{
+    height: 85vh;
   }
   .button1{
     margin-top: 25px;
   }
-  .backimage .sec1 .sec2 .content{
-    /* margin-left: 10%; */
+  .navbar-dark .navbar-toggler{
+    transform: translate(200px,-60px);
   }
   .sec1 .sec3 .logo{
     flex-direction: column;
@@ -723,6 +766,9 @@
   .cards .project .propara h6{
     width: 70%;
     margin-left: 14%;
+  }
+  .container .card .face.face1 .content img{
+    height: 35.5vh;
   }
 
 }
@@ -763,6 +809,9 @@
   }
   .Aboutsection{
     height: 85vh;
+  }
+  .contact-section{
+    background-position-x: -5rem;
   }
 }
 @media(max-width:850px){
@@ -813,7 +862,7 @@
     transform: translate(160px, -60px);
   }
   .backimage{
-    height: 140vh;
+    height: 145vh;
   }
   .sec1 .sec3 .logo{
     flex-direction: inherit;
@@ -850,7 +899,7 @@
     padding-top: 37%;
   }
   .bg{
-    background-position-x: -6rem;
+    background-position-x: -4rem;
   }
   .Aboutsection{
     height: 125vh;
@@ -895,15 +944,24 @@
     font-size: 37px;
   }
   .bg{
-    background-position-x: -5rem;
+    background-position-x: -8rem;
   }
   .backimage{
     height: 150vh;
+  }
+  .contact-section{
+    background-position-x: -12rem;
+  }
+  .mycnt{
+    margin-left: 23%;
   }
 }
 @media(max-width:600px){
   .navbar-dark .navbar-toggler{
     transform: translate(125px,-60px);
+  }
+  .container1 .navbar-nav{
+    margin-left: 113%;
   }
   .contact-section .icon{
   padding: 8px;
@@ -911,7 +969,243 @@
   .contact-section{
     height: 150vh;
   }
+  .contents{
+    width: 80%;
+    margin-left: 10%;
+  }
+  .contents h6{
+    width: 100%;
+    text-align: center;
+  }
+  .contact-section .icon{
+    top: 25%;
+  }
+  .mycnt{
+    margin-left: 20%;
+    margin-top: 10%;
+  }
   
+}
+@media(max-width:550px){
+  .navbar-dark .navbar-toggler{
+    transform: translate(115px,-60px);
+  }
+  .backimage{
+    height: 154vh;
+  }
+  .myname h1{
+    font-size: 33px;
+  }
+  .myname h2{
+    font-size: 33px;
+  }
+  .cards .project .propara h6{
+    width: 80%;
+    text-align: center;
+    margin-left: 10%;
+    padding-bottom: 3%;
+  }
+  .cards .project .propara h5{
+    padding-bottom: 3%;
+  }
+  .cards .project .prohead h3{
+    margin-bottom: 5%;
+  }
+  .cards{
+    height: 200vh;
+  }
+  .bg{
+    background-position-x: -8rem;
+  }
+}
+@media(max-width:500px){
+  .contact-section .icon{
+    padding: 7px;
+  }
+  .contact-section .icon i{
+    font-size: 30px;
+  }
+  .contact-section .icon{
+    top: 30%;
+  }
+  .mycnt{
+    margin-left: 15%;
+  }
+  .twosection .left-section .mycnt .name i span{
+    font-size: 20px;
+  }
+  .twosection .left-section .mycnt .mail i span{
+    font-size: 20px;
+  }
+  .twosection .left-section .mycnt .num i span{
+    font-size: 20px;
+  }
+  .backimage{
+    height: 165vh;
+  }
+  .Aboutsection{
+    height: 130vh;
+  }
+  .section1{
+    height: 135vh;
+  }
+  .button{
+   margin: 32px auto;
+  }
+  .button1{
+   margin-left: 40%;
+  }
+  .myname h1{
+    font-size: 30px;
+  }
+  .myname h2{
+    font-size: 30px;
+  }
+  .myname{
+    padding-top: 50%;
+  }
+  .navbar-dark .navbar-toggler{
+    transform: translate(100px,-56px);
+  }
+  .container1 .navbar-nav{
+    margin-left: 110%;
+  }
+  .bg{
+    background-position-x: -9rem;
+  }
+  .contact-section{
+    background-position-x: -21rem;
+  }
+}
+@media(max-width:450px){
+  img{
+    height: 60px;
+    width: 70px;
+  }
+  .vm{
+    margin-left: 4%;
+  }
+  .navbar-dark .navbar-toggler{
+    transform: translate(95px,-50px);
+  }
+  .backimage{
+    height: 170vh;
+  }
+  .myname h1{
+  font-size: 27px;
+  }
+  .myname h2{
+    font-size: 27px;
+  }
+  .myname{
+      padding-top: 57%;
+  }
+  .cards .project .propara h6{
+    font-size: 15px;
+    text-align: center;
+  }
+  .cards .project .propara h5{
+    font-size: 18px;
+  }
+  .twosection .left-section .mycnt .name i span{
+    font-size: 17px;
+  }
+  .twosection .left-section .mycnt .mail i span{
+    font-size: 17px;
+  }
+  .twosection .left-section .mycnt .num i span{
+    font-size: 17px;
+  }
+  .mycnt{
+    margin-left: 17%;
+  }
+}
+@media(max-width:400px){
+  .contents{
+    width: 100%;
+    margin-left: 0%;
+  }
+  .contents h6{
+    width: 100%;
+    font-size: 17px;
+  }  
+  .right-section{
+    margin-top: 15%;
+  }
+  .mycnt{
+    margin-left: 8%;
+    margin-top: 12%;
+  }
+  .data{
+    padding-bottom: 8%;
+  }
+  .twosection .left-section .mycnt .name i{
+   font-size: 18px;
+  }
+  .twosection .left-section .mycnt .mail i{
+    font-size: 18px;
+   }
+   .twosection .left-section .mycnt .num i{
+    font-size: 18px;
+   }
+   .contact-section .icon{
+    top: 42%;
+   }
+   .navbar-dark .navbar-toggler{
+    transform: translate(80px,-55px);
+   }
+   .myname{
+    line-height: 2rem;
+   }
+   .inputs .head{
+    margin-top: 8%;
+   }
+   .backimage{
+    height: 185vh;
+   }
+   .button1{
+      margin-left: 35%;
+   }
+   .cards .project .prohead h3{
+    margin-bottom: 8%;
+    margin-top: 5%;
+   }
+   .cards .project .propara h5{
+    margin-top: 5%;
+    margin-bottom: 8%;
+   }
+   .Aboutsection{
+    height: 140vh;
+   }
+   .section1{
+    height: 145vh;
+   }
+   .Aboutsection .section1 .cnt1 h2{
+    padding-top: 7%;
+    padding-bottom: 5%;
+   }
+   .myself h3{
+    width: 80%;
+    margin-left: 10%;
+   }
+   .sec1 .sec3 .logo .logos h2{
+    font-size:large;
+   }
+   .container1 .navbar-nav{
+    margin-left: 104%;
+   }
+   .contact-section{
+    background-position-x: -30rem;
+   }
+
+}
+@media(max-width:350px){
+  .mycnt{
+    margin-left: 2%;
+  }
+  .backimage{
+    height: 200vh;
+  }
 }
 
 
