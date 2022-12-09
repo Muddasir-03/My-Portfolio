@@ -1125,6 +1125,15 @@ width:100%;border-right:none;
     width: 100%;
     margin-left: 0%;
   }
+  .contact-section{
+    height: 135vh;
+  }
+  .bg{
+    height: 75vh;
+  }
+  .container .card .face.face1 .content img{
+    height: 29vh;
+  }
   .contents h6{
     width: 100%;
     font-size: 17px;
@@ -1161,7 +1170,7 @@ width:100%;border-right:none;
     margin-top: 8%;
    }
    .backimage{
-    height: 185vh;
+    height: 145vh;
    }
    .button1{
       margin-left: 35%;
@@ -1175,10 +1184,10 @@ width:100%;border-right:none;
     margin-bottom: 8%;
    }
    .Aboutsection{
-    height: 140vh;
+    height: 117vh;
    }
    .section1{
-    height: 145vh;
+    height: 120vh;
    }
    .Aboutsection .section1 .cnt1 h2{
     padding-top: 7%;
@@ -1197,6 +1206,9 @@ width:100%;border-right:none;
    .contact-section{
     background-position-x: -30rem;
    }
+   .cards{
+    height: 160vh;
+   }
 
 }
 @media(max-width:350px){
@@ -1204,7 +1216,13 @@ width:100%;border-right:none;
     margin-left: 2%;
   }
   .backimage{
-    height: 188vh;
+    height: 152vh;
+  }
+  .section1{
+    height: 125vh;
+  }
+  .Aboutsection{
+    height: 122vh;
   }
 }
 
