@@ -19,7 +19,7 @@
     background-color: transparent;
 }
 .container1 .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .show>.nav-link a{
-  color:aqua;
+  color:steelblue;
 }
 .container1 .navbar-nav{
   display: flex;
@@ -60,7 +60,7 @@
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-weight: bolder;
   font-size: 40px;
-    color:white;
+  color:white;
 }
 .myname h2{
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -68,9 +68,9 @@
   font-size: 40px;
     color:white;
 }
-.myname h1 span{
+/* .myname h1 span{
     color:steelblue;
-}
+} */
 
 
 .Aboutsection {
@@ -469,17 +469,17 @@
   position: relative;
 }
 .twosection .left-section .mycnt .name i span{
-  color:skyblue;
+  color:white;
   font-family: 'Chakra Petch', sans-serif;
   letter-spacing: 1px;
 }
 .twosection .left-section .mycnt .mail i span{
-  color: skyblue;
+  color: white;
   font-family: 'Chakra Petch', sans-serif;
   letter-spacing: 1px;
 }
 .twosection .left-section .mycnt .num i span{
-  color: skyblue;
+  color: white;
   font-family: 'Chakra Petch', sans-serif;
   letter-spacing: 1px;
 }
@@ -509,7 +509,7 @@
 }
 .contact-section .right-section .inputs .head h4{
   letter-spacing: 3px;
-  color:skyblue;
+  color:steelblue;
   /* font-weight: 600; */
 }
 
