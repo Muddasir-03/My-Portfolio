@@ -768,7 +768,7 @@ width:100%;border-right:none;
     margin-left: 14%;
   }
   .container .card .face.face1 .content img{
-    height: 35.5vh;
+    /* height: 35.5vh; */
   }
 
 }
@@ -805,7 +805,7 @@ width:100%;border-right:none;
     margin-top: 5%;
   }
   .container .card .face.face1 .content img{
-    height: 36vh;
+    /* height: 36vh; */
   }
   .Aboutsection{
     height: 85vh;
