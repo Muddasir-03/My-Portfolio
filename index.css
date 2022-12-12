@@ -703,13 +703,22 @@ width:100%;border-right:none;
    width: 80%;
   } 
   .myname{
-  padding-top: 20%;
+  padding-top: 25%;
   }
   .bg{
   width: 100%;
   }
   .backimage{
-    height: 110vh;
+    height: 90vh;
+  }
+  .Aboutsection{
+    height: 65vh;
+  }
+  .cards{
+    height: 105vh;
+  }
+  .contact-section{
+    height: 90vh;
   }
 
 }
@@ -718,7 +727,7 @@ width:100%;border-right:none;
    width: 77%;
   } 
   .myname{
-    padding-top: 23%;
+    padding-top: 27%;
   }
 }
 @media(max-width:1000px){
@@ -726,10 +735,10 @@ width:100%;border-right:none;
     transform: translate(196px, -37px);
   }
   .backimage{
-    height: 116vh;
+    height: 95vh;
   }
   .cards{
-    height: 128vh;
+    height: 100vh;
   }
   .navbar-dark .navbar-toggler{
     transform: translate(225px,-60px);
@@ -741,16 +750,16 @@ width:100%;border-right:none;
 }
 @media(max-width:950px){
   .myname{
-    padding-top: 26%;
+    padding-top: 29%;
   }
   .container1 .navbar-nav{
     margin-left: 118%;
   }
   .backimage{
-    height: 122vh;
+    height: 98vh;
   }
   .Aboutsection{
-    height: 85vh;
+    height: 65vh;
   }
   .button1{
     margin-top: 25px;
@@ -774,13 +783,13 @@ width:100%;border-right:none;
 }
 @media(max-width:900px){
   .backimage{
-    height: 120vh;
+    /* height: 120vh; */
   }
   .twosection{
     flex-direction: column;
   }
   .contact-section{
-    height: 165vh;
+    height: 145vh;
     background-position-x: -5rem;
   }
   .left-section{
@@ -808,7 +817,7 @@ width:100%;border-right:none;
     /* height: 36vh; */
   }
   .Aboutsection{
-    height: 85vh;
+    /* height: 85vh; */
   }
   .contact-section{
     background-position-x: -5rem;
@@ -819,13 +828,13 @@ width:100%;border-right:none;
     margin-left: 115%;
   }
   .myname{
-    padding-top: 30%;
+    padding-top: 33%;
   }
   .navbar-dark .navbar-toggler{
     transform: translate(160px, -50px);
   }
   .backimage{
-    height: 130vh;
+    height: 105vh;
   }
 }
 @media(max-width:800px){
@@ -838,7 +847,7 @@ width:100%;border-right:none;
     margin-top: -7%;
   }
   .backimage{
-    height: 135vh;
+    height: 110vh;
   }
   .container .card{
     flex-direction: column;
@@ -850,19 +859,25 @@ width:100%;border-right:none;
     transform: translateY(-197px);
   }
   .cards{
-    height: 190vh;
+    height: 155vh;
+  }
+  .contact-section{
+    height: 130vh;
   }
 
 }
 @media(max-width:750px){
   .myname{
-    padding-top: 32%;
+    padding-top: 36%;
   }
   .navbar-dark .navbar-toggler{
     transform: translate(160px, -60px);
   }
   .backimage{
-    height: 145vh;
+    height: 115vh;
+  }
+  .Aboutsection{
+    height: 70vh;
   }
   .sec1 .sec3 .logo{
     flex-direction: inherit;
@@ -896,16 +911,16 @@ width:100%;border-right:none;
     transform: translate(135px, -52px);
   }
   .myname{
-    padding-top: 37%;
+    padding-top: 42%;
   }
   .bg{
     background-position-x: -4rem;
   }
   .Aboutsection{
-    height: 125vh;
+    height: 105vh;
   }
   .section1{
-    height: 131vh;
+    height: 111vh;
   }
   .flex{
     flex-direction: column;
@@ -935,7 +950,7 @@ width:100%;border-right:none;
 }
 @media(max-width:650px){
   .myname{
-    padding-top: 40%;
+    padding-top: 45%;
   }
   .myname h1{
     font-size: 37px;
@@ -947,7 +962,7 @@ width:100%;border-right:none;
     background-position-x: -8rem;
   }
   .backimage{
-    height: 150vh;
+    height: 120vh;
   }
   .contact-section{
     background-position-x: -12rem;
@@ -967,7 +982,7 @@ width:100%;border-right:none;
   padding: 8px;
   }
   .contact-section{
-    height: 150vh;
+    /* height: 150vh; */
   }
   .contents{
     width: 80%;
@@ -984,14 +999,19 @@ width:100%;border-right:none;
     margin-left: 20%;
     margin-top: 10%;
   }
-  
+  .myname{
+    padding-top: 50%;
+  }
 }
 @media(max-width:550px){
   .navbar-dark .navbar-toggler{
     transform: translate(115px,-60px);
   }
   .backimage{
-    height: 154vh;
+    height: 125vh;
+  }
+  .myname{
+    padding-top: 55%;
   }
   .myname h1{
     font-size: 33px;
@@ -1012,7 +1032,7 @@ width:100%;border-right:none;
     margin-bottom: 5%;
   }
   .cards{
-    height: 200vh;
+    height: 160vh;
   }
   .bg{
     background-position-x: -8rem;
@@ -1041,13 +1061,13 @@ width:100%;border-right:none;
     font-size: 20px;
   }
   .backimage{
-    height: 165vh;
-  }
-  .Aboutsection{
     height: 130vh;
   }
+  .Aboutsection{
+    height: 112vh;
+  }
   .section1{
-    height: 135vh;
+    height: 117vh;
   }
   .button{
    margin: 32px auto;
@@ -1062,7 +1082,7 @@ width:100%;border-right:none;
     font-size: 30px;
   }
   .myname{
-    padding-top: 50%;
+    padding-top: 63%;
   }
   .navbar-dark .navbar-toggler{
     transform: translate(100px,-56px);
@@ -1089,7 +1109,13 @@ width:100%;border-right:none;
     transform: translate(95px,-50px);
   }
   .backimage{
-    height: 170vh;
+    height: 135vh;
+  }
+  .Aboutsection{
+    height: 115vh;
+  }
+  .section1{
+    height: 120vh;
   }
   .myname h1{
   font-size: 27px;
@@ -1170,7 +1196,7 @@ width:100%;border-right:none;
     margin-top: 8%;
    }
    .backimage{
-    height: 145vh;
+    height: 150vh;
    }
    .button1{
       margin-left: 35%;
@@ -1184,10 +1210,10 @@ width:100%;border-right:none;
     margin-bottom: 8%;
    }
    .Aboutsection{
-    height: 117vh;
+    height: 120vh;
    }
    .section1{
-    height: 120vh;
+    height: 125vh;
    }
    .Aboutsection .section1 .cnt1 h2{
     padding-top: 7%;
@@ -1216,13 +1242,13 @@ width:100%;border-right:none;
     margin-left: 2%;
   }
   .backimage{
-    height: 152vh;
+    height: 162vh;
   }
   .section1{
-    height: 125vh;
+    height: 130vh;
   }
   .Aboutsection{
-    height: 122vh;
+    height: 125vh;
   }
 }
 
