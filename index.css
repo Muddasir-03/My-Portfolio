@@ -600,6 +600,25 @@
   text-align: center;
   margin-left: 1%;
 }
+.social-media .icon .face i:hover{
+  color: steelblue;
+}
+.social-media .icon .insta i:hover{
+  color: steelblue;
+}
+.social-media .icon .whatsapp i:hover{
+  color: steelblue;
+}
+.social-media .icon .git i:hover{
+  color: steelblue;
+}
+.social-media .icon .twitter i:hover{
+  color: steelblue;
+}
+.social-media .icon .link i:hover{
+  color: steelblue;
+}
+
 .contact-section .icon{
   position: absolute;
   top: 10%;
@@ -941,7 +960,6 @@ width:100%;border-right:none;
   .myself .para{
     width: 85%;
     margin-left: 7%;
-    text-align: center;
   }
   .button{
     margin-top: 5%;
