@@ -1123,7 +1123,7 @@ width:100%;border-right:none;
     margin-bottom: 5%;
   }
   .cards{
-    height: 195vh;
+    height: 190vh;
   }
   .bg{
     background-position-x: -8rem;
@@ -1143,6 +1143,9 @@ width:100%;border-right:none;
   .contact-section .icon{
     top: 30%;
   }
+  .contact-section{
+    height: 120vh;
+  }
   .mycnt{
     margin-left: 15%;
   }
@@ -1156,7 +1159,7 @@ width:100%;border-right:none;
     font-size: 20px;
   }
   .backimage{
-    height: 150vh;
+    height: 145vh;
   }
   .Aboutsection{
     /* height: 112vh; */
@@ -1213,7 +1216,7 @@ width:100%;border-right:none;
     transform: translate(95px,-50px);
   }
   .backimage{
-    height: 160vh;
+    height: 155vh;
   }
   .Aboutsection{
     /* height: 115vh; */
@@ -1254,6 +1257,9 @@ width:100%;border-right:none;
   }
   .contactbutton{
     margin-left: 30%;
+  }
+  .cards{
+    height: 185vh;
   }
 
 }
@@ -1307,7 +1313,7 @@ width:100%;border-right:none;
     margin-top: 8%;
    }
    .backimage{
-    height: 137vh;
+    height: 155vh;
    }
    .button1{
       margin-left: 35%;
@@ -1324,10 +1330,10 @@ width:100%;border-right:none;
     margin-bottom: 8%;
    }
    .Aboutsection{
-    height: 108vh;
+    height: 110vh;
    }
    .section1{
-    height: 112vh;
+    height: 115vh;
    }
    .Aboutsection .section1 .cnt1 h2{
     padding-top: 7%;
@@ -1347,7 +1353,7 @@ width:100%;border-right:none;
     background-position-x: -30rem;
    }
    .cards{
-    height: 160vh;
+    height: 180vh;
    }
    .right-section .inputs .data input{
     width: 70%;
