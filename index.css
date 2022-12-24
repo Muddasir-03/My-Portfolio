@@ -727,7 +727,7 @@ width:100%;border-right:none;
 
 
 
-@media(max-width:1200px){
+/* @media(max-width:1200px){
    #fixed{
     width: 90%;
    }  
@@ -746,28 +746,31 @@ width:100%;border-right:none;
     .inputs .head{
      padding-bottom: 5%;
     }
-}
-@media(max-width:1150px){
+} */
+/* @media(max-width:1150px){
   #fixed{
    width: 85%;
   } 
 
-}
+} */
 @media(max-width:1100px){
   #fixed{
    width: 80%;
   } 
   .myname{
-  padding-top: 25%;
+  padding-top: 20%;
   }
   .bg{
   width: 100%;
   }
   .backimage{
-    /* height: 90vh; */
+    height: 105vh;
   }
   .Aboutsection{
-    /* height: 65vh; */
+    height: 65vh;
+  }
+  .cards{
+    height: 130vh;
   }
 
 }
@@ -776,7 +779,7 @@ width:100%;border-right:none;
    width: 77%;
   } 
   .myname{
-    padding-top: 27%;
+    /* padding-top: 27%; */
   }
 }
 @media(max-width:1000px){
@@ -813,7 +816,7 @@ width:100%;border-right:none;
 }
 @media(max-width:950px){
   .myname{
-    padding-top: 29%;
+    padding-top: 25%;
   }
   .container1 .navbar-nav{
     margin-left: 118%;
@@ -822,7 +825,7 @@ width:100%;border-right:none;
     height: 93vh;
   }
   .Aboutsection{
-    /* height: 65vh; */
+    height: 70vh;
   }
   .button1{
     margin-top: 20px;
@@ -839,6 +842,9 @@ width:100%;border-right:none;
     width: 70%;
     margin-left: 14%;
   }
+  .backimage{
+    height: 115vh;
+  }
 
 }
 @media(max-width:900px){
@@ -846,7 +852,7 @@ width:100%;border-right:none;
     flex-direction: column;
   }
   .contact-section{
-    height: 120vh;
+    height: 140vh;
     background-position-x: -5rem;
   }
   .left-section{
@@ -894,7 +900,7 @@ width:100%;border-right:none;
     margin-left: 115%;
   }
   .myname{
-    padding-top: 33%;
+    padding-top: 28%;
   }
   .navbar-dark .navbar-toggler{
     transform: translate(160px, -50px);
@@ -925,25 +931,28 @@ width:100%;border-right:none;
     transform: translateY(-197px);
   }
   .cards{
-    height: 155vh;
+    height: 190vh;
   }
   .contact-section{
-    height: 110vh;
+    height: 140vh;
+  }
+  .backimage{
+    height: 125vh;
   }
 
 }
 @media(max-width:750px){
   .myname{
-    padding-top: 36%;
+    padding-top: 33%;
   }
   .navbar-dark .navbar-toggler{
     transform: translate(160px, -60px);
   }
   .backimage{
-    height: 110vh;
+    height: 135vh;
   }
   .Aboutsection{
-    /* height: 70vh; */
+    height: 72vh;
   }
   .sec1 .sec3 .logo{
     flex-direction: inherit;
@@ -992,16 +1001,16 @@ width:100%;border-right:none;
     transform: translate(135px, -52px);
   }
   .myname{
-    padding-top: 42%;
+    padding-top: 35%;
   }
   .bg{
     background-position-x: -4rem;
   }
   .Aboutsection{
-    height: 100vh;
+    height: 110vh;
   }
   .section1{
-    height: 111vh;
+    height: 118vh;
   }
   .flex{
     flex-direction: column;
@@ -1036,7 +1045,7 @@ width:100%;border-right:none;
 }
 @media(max-width:650px){
   .myname{
-    padding-top: 45%;
+    padding-top: 38%;
   }
   .myname h1{
     font-size: 37px;
@@ -1048,11 +1057,11 @@ width:100%;border-right:none;
     background-position-x: -8rem;
   }
   .backimage{
-    height: 115vh;
+    height: 140vh;
   }
   .contact-section{
     background-position-x: -12rem;
-    height: 105vh;
+    height: 130vh;
   }
   .mycnt{
     margin-left: 15%;
@@ -1079,7 +1088,7 @@ width:100%;border-right:none;
     margin-top: 12%;
   }
   .myname{
-    padding-top: 50%;
+    padding-top: 40%;
   }
 }
 @media(max-width:550px){
@@ -1090,7 +1099,7 @@ width:100%;border-right:none;
     /* height: 125vh; */
   }
   .myname{
-    padding-top: 55%;
+    padding-top: 49%;
   }
   .myname h1{
     font-size: 33px;
@@ -1114,7 +1123,7 @@ width:100%;border-right:none;
     margin-bottom: 5%;
   }
   .cards{
-    height: 160vh;
+    height: 195vh;
   }
   .bg{
     background-position-x: -8rem;
@@ -1147,7 +1156,7 @@ width:100%;border-right:none;
     font-size: 20px;
   }
   .backimage{
-    height: 120vh;
+    height: 150vh;
   }
   .Aboutsection{
     /* height: 112vh; */
@@ -1168,7 +1177,7 @@ width:100%;border-right:none;
     font-size: 30px;
   }
   .myname{
-    padding-top: 63%;
+    padding-top: 55%;
   }
   .navbar-dark .navbar-toggler{
     transform: translate(100px,-56px);
@@ -1204,7 +1213,7 @@ width:100%;border-right:none;
     transform: translate(95px,-50px);
   }
   .backimage{
-    height: 130vh;
+    height: 160vh;
   }
   .Aboutsection{
     /* height: 115vh; */
@@ -1219,7 +1228,7 @@ width:100%;border-right:none;
     font-size: 27px;
   }
   .myname{
-      padding-top: 57%;
+      /* padding-top: 57%; */
   }
   .cards .project .propara h6{
     font-size: 15px;
@@ -1292,7 +1301,7 @@ width:100%;border-right:none;
     transform: translate(80px,-55px);
    }
    .myname{
-    line-height: 2rem;
+    /* line-height: 1rem; */
    }
    .inputs .head{
     margin-top: 8%;
@@ -1356,14 +1365,17 @@ width:100%;border-right:none;
   .mycnt{
     margin-left: 2%;
   }
+  .myname{
+    padding-top: 42%;
+  }
   .backimage{
-    height: 148vh;
+    height: 180vh;
   }
   .section1{
-    /* height: 130vh; */
+    height: 130vh;
   }
   .Aboutsection{
-    /* height: 125vh; */
+    height: 125vh;
   }
   .social-media{
     margin-left: -23%;
@@ -1376,6 +1388,12 @@ width:100%;border-right:none;
   }
   .inputs .data{
     margin-bottom: 7%;
+  }
+  .cards{
+    height: 200vh;
+  }
+  .contact-section{
+    height: 120vh;
   }
 }
 
